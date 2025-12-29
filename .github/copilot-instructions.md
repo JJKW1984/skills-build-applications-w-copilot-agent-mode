@@ -31,7 +31,7 @@ octofit-tracker/
 
 ### Prerequisites
 - Python 3.x
-- Node.js and npm
+- Node.js and pnpm
 - MongoDB (mongodb-org package)
 
 ### Forwarded Ports
@@ -60,7 +60,7 @@ octofit-tracker/
 ### Frontend Setup
 1. Install dependencies:
    ```bash
-   npm install --prefix octofit-tracker/frontend
+   pnpm install --prefix octofit-tracker/frontend
    ```
 
 2. React app is bootstrapped with Create React App
@@ -71,7 +71,7 @@ octofit-tracker/
 
 ### General Rules
 - **Never change directories** when running commands in agent mode
-- Instead, use full paths or the `--prefix` flag for npm commands
+- Instead, use full paths or the `--prefix` flag for pnpm commands
 - Point to the specific directory when issuing commands
 
 ### Backend Development
@@ -153,7 +153,7 @@ python octofit-tracker/backend/manage.py runserver 0.0.0.0:8000
 
 ### Running the Frontend
 ```bash
-npm start --prefix octofit-tracker/frontend
+pnpm start --prefix octofit-tracker/frontend
 ```
 
 ## Security Considerations
