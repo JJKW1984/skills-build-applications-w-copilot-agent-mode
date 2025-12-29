@@ -8,14 +8,14 @@ applyTo: "octofit-tracker/frontend/**"
 Make sure in all commands we point to the `octofit-tracker/frontend` directory
 
 ```bash
-npx create-react-app octofit-tracker/frontend --template cra-template
+pnpm create react-app octofit-tracker/frontend --template cra-template
 
-pnpm install bootstrap --prefix octofit-tracker/frontend
+pnpm --dir octofit-tracker/frontend install bootstrap
 
 # Add the Bootstrap CSS import at the very top of src/index.js:
 sed -i "1iimport 'bootstrap/dist/css/bootstrap.min.css';" octofit-tracker/frontend/src/index.js
 
-pnpm install react-router-dom --prefix octofit-tracker/frontend
+pnpm --dir octofit-tracker/frontend install react-router-dom
 
 ```
 
