@@ -50,4 +50,10 @@ If the exercise isn't ready in 20 seconds, please check the "Actions" tab of you
 
 ---
 
+## GitHub Copilot Coding Agent Configuration
+
+This repository is configured with custom instructions to help GitHub Copilot coding agent work effectively on this codebase. See [`.github/COPILOT_SETUP.md`](.github/COPILOT_SETUP.md) for details on how instructions are organized and how to use them.
+
+---
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
